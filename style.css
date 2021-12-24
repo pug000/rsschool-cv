@@ -2,6 +2,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .body {
@@ -34,12 +36,15 @@ video {
 
 .container {
   max-width: 1000px;
-  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+  background: -webkit-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
+  background: -moz-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
+  background: linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
   margin: 0 auto;
   position: relative;
   color: #f1f1f1;
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .left-sidebar__content {
@@ -48,7 +53,7 @@ video {
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
   margin: 10px 6px 10px 14px;
-  height: 90vh;
+  height: 98vh;
 }
 
 .profile__content {
@@ -60,12 +65,14 @@ video {
   width: 164px;
   height: 164px;
   border-radius: 93px;
-  margin-left: -25px;
+  margin: 10px 22px 20px 17px;
 }
 
 .profile__info {
-  display: block;
+  display: grid;
   width: 100%;
+  justify-content: space-around;
+  margin-top: 15px;
 }
 
 .title__first-name {
@@ -110,7 +117,7 @@ video {
 }
 
 .contact__item+.contact__item {
-  margin-top: 15px;
+  margin-top: 19px;
 }
 
 .contact__img {
@@ -130,6 +137,7 @@ video {
   line-height: 18px;
   padding-left: 21px;
   padding-top: 15px;
+  margin-bottom: 25px;
 }
 
 .language__list {
@@ -140,6 +148,7 @@ video {
   list-style: none;
   padding-left: 22px;
   display: inline-block;
+  margin-bottom: 15px;
 }
 
 .language__item {
@@ -148,11 +157,12 @@ video {
   margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .language__img {
   width: 100px;
-  margin-left: 65px;
+  margin-left: 100px;
 }
 
 .right-sidebar__content {
@@ -164,4 +174,5 @@ video {
   justify-content: space-between;
   color: #000000;
   margin: 10px 13px 10px 0px;
+  height: 98vh;
 }

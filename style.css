@@ -94,7 +94,6 @@ video {
 
 
 .contact__list {
-  display: block;
   padding: 20px 18px 0 20px;
 }
 
@@ -103,7 +102,6 @@ video {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  /* height: 45px; */
   background: rgba(196, 196, 196, 0.35);
   border-radius: 15px;
   list-style: none;
@@ -119,7 +117,43 @@ video {
   float: left;
 }
 
-.language__info {}
+.language__info {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 15px;
+  margin: 25px 18px 12px 18px;
+}
+
+.language__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 21px;
+  padding-top: 15px;
+}
+
+.language__list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  list-style: none;
+  padding-left: 22px;
+  display: inline-block;
+}
+
+.language__item {
+  padding-top: 5px;
+  padding-bottom: 6px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.language__img {
+  width: 100px;
+  margin-left: 65px;
+}
 
 .right-sidebar__content {
   background: #FFFFFF;

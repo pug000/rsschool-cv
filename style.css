@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -35,16 +40,18 @@ video {
 }
 
 .container__main {
-  max-width: 1000px;
   background: -webkit-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
   background: -moz-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
   background: linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
-  margin: 0 auto;
   position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.two-columns {
   color: #f1f1f1;
   display: flex;
-  justify-content: space-between;
-  height: 100vh;
+  height: 91vh;
 }
 
 .left-column__content {
@@ -53,7 +60,7 @@ video {
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
   margin: 10px 6px 10px 14px;
-  height: 98vh;
+
 }
 
 .header__content {
@@ -172,7 +179,7 @@ video {
   border-radius: 10px;
   color: #000000;
   margin: 10px 13px 10px 0px;
-  height: 98vh;
+  /* height: 98vh; */
 }
 
 .about__content {
@@ -229,8 +236,6 @@ video {
   height: 33px;
   text-align: center;
 }
-
-.education__list {}
 
 .education__item {
   list-style: none;
@@ -334,4 +339,40 @@ video {
 
 .js__var {
   color: #e28964;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  height: 9vh;
+}
+
+.footer__github {
+  display: flex;
+  flex-direction: inherit;
+}
+
+.footer__github img {
+  width: 35px;
+  height: 35px;
+}
+
+.github__text {
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.footer__year {
+  margin-top: 7px;
+}
+
+.footer__rsschool img {
+  width: 82px;
+  height: 32px;
 }

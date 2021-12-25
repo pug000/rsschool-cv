@@ -64,7 +64,7 @@ video {
 }
 
 .header__content {
-  margin: 10px 17px 20px 17px;
+  margin: 10px 17px 30px 17px;
   display: flex;
 }
 
@@ -124,7 +124,7 @@ video {
 }
 
 .contact__item+.contact__item {
-  margin-top: 19px;
+  margin-top: 22px;
 }
 
 .contact__img {
@@ -134,7 +134,7 @@ video {
 .language__info {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 15px;
-  margin: 25px 18px 12px 18px;
+  margin: 40px 18px 12px 18px;
 }
 
 .language__title {
@@ -183,7 +183,7 @@ video {
 }
 
 .about__content {
-  margin: 20px 15px 30px 15px;
+  margin: 20px 15px 50px 15px;
 }
 
 .about-me__title {
@@ -195,7 +195,7 @@ video {
   border-radius: 10px;
   border: 10px;
   color: #FFFFFF;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   width: 230px;
   height: 33px;
   text-align: center;
@@ -214,12 +214,12 @@ video {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 23px;
   color: #000000;
 }
 
 .education__content {
-  margin: 20px 15px 30px 15px;
+  margin: 20px 15px 50px 15px;
 }
 
 .education__title {
@@ -231,7 +231,7 @@ video {
   border-radius: 10px;
   border: 10px;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   width: 230px;
   height: 33px;
   text-align: center;
@@ -248,7 +248,7 @@ video {
 }
 
 .skills__content {
-  margin: 20px 15px 30px 15px;
+  margin: 20px 15px 50px 15px;
   width: 425px;
 }
 
@@ -261,7 +261,7 @@ video {
   border-radius: 10px;
   border: 10px;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   width: 230px;
   height: 33px;
   text-align: center;
@@ -283,7 +283,7 @@ video {
   font-size: 17px;
   line-height: 18px;
   color: #545454;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   width: 80px;
   height: 79px;
 }
@@ -294,7 +294,7 @@ video {
 }
 
 .code-examples__content {
-  margin: 20px 15px 30px 15px;
+  margin: 20px 15px 50px 15px;
 }
 
 .code-examples__title {
@@ -306,7 +306,7 @@ video {
   border-radius: 10px;
   border: 10px;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   width: 230px;
   height: 33px;
   text-align: center;

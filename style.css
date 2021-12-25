@@ -244,6 +244,7 @@ video {
 
 .skills__content {
   margin: 20px 15px 30px 15px;
+  width: 425px;
 }
 
 .skills__title {
@@ -259,12 +260,32 @@ video {
   width: 230px;
   height: 33px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.skills__list {}
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 10px;
+}
 
 .skills__item {
   list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+  color: #545454;
+  margin-bottom: 50px;
+  width: 80px;
+  height: 79px;
+}
+
+.skills__item img {
+  width: 70px;
+  height: 85px;
 }
 
 .code-examples__content {

@@ -315,3 +315,23 @@ video {
   margin-top: 16px;
   margin-left: 226px;
 }
+
+.js__code {
+  background-color: #0f1013de;
+  color: #f8f8f8;
+  display: block;
+  font-family: monospace;
+  width: 350px;
+}
+
+.js__keyword {
+  color: #b45ea4;
+}
+
+.js__function {
+  color: #e28964;
+}
+
+.js__var {
+  color: #e28964;
+}

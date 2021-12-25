@@ -34,7 +34,7 @@ video {
   object-fit: contain;
 }
 
-.container__main {
+.container {
   max-width: 1000px;
   background: -webkit-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
   background: -moz-linear-gradient(180deg, rgb(32, 11, 212), rgb(212, 17, 189) 40%, rgb(126, 0, 111) 70%);
@@ -47,7 +47,7 @@ video {
   height: 100vh;
 }
 
-.left-column__content {
+.left-sidebar__content {
   width: 50%;
   display: inline-block;
   background: rgba(196, 196, 196, 0.3);
@@ -56,19 +56,19 @@ video {
   height: 98vh;
 }
 
-.header__content {
+.profile__content {
   margin: 10px 17px 20px 17px;
   display: flex;
 }
 
-.header__avatar img {
+.profile__avatar img {
   width: 164px;
   height: 164px;
   border-radius: 93px;
   margin: 10px 22px 20px 17px;
 }
 
-.header__info {
+.profile__info {
   display: grid;
   width: 100%;
   justify-content: space-around;
@@ -91,7 +91,7 @@ video {
   color: #CECACA;
 }
 
-.header__subtitle {
+.profile__text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 15px;
@@ -165,7 +165,7 @@ video {
   margin-left: 100px;
 }
 
-.right-column__content {
+.right-sidebar__content {
   background: #FFFFFF;
   border-radius: 10px;
   width: 50%;

@@ -145,15 +145,15 @@ video {
 }
 
 .contact__phone {
-  background-image: url(/images/phone.svg);
+  background-image: url(images/phone.svg);
 }
 
 .contact__email {
-  background-image: url(/images/email.svg);
+  background-image: url(images/email.svg);
 }
 
 .contact__discord {
-  background-image: url(/images/discord.svg);
+  background-image: url(images/discord.svg);
 }
 
 .contact__item+.contact__item {
@@ -205,11 +205,11 @@ video {
 }
 
 .language__dots-black {
-  background-image: url(/images/dots__black.svg);
+  background-image: url(images/dots__black.svg);
 }
 
 .language__dots-white {
-  background-image: url(/images/dots__white.svg);
+  background-image: url(images/dots__white.svg);
 }
 
 .language__img {

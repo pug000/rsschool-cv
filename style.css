@@ -200,7 +200,7 @@ video {
   margin-bottom: 12px;
   background-repeat: no-repeat;
   background-size: 110px 30px;
-  background-position-x: 65%;
+  background-position-x: 75%;
   background-position-y: 50%;
 }
 
@@ -392,7 +392,8 @@ video {
   color: #f8f8f8;
   display: block;
   font-family: monospace;
-  width: 350px;
+  width: 380px;
+  margin-left: 20px;
 }
 
 .js__keyword {
@@ -421,7 +422,6 @@ video {
 
 .footer__github {
   display: flex;
-  flex-direction: inherit;
 }
 
 .footer__github img {

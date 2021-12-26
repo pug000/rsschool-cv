@@ -197,13 +197,14 @@ video {
   text-align: center;
 }
 
-.title__line {
+.about-me__title::after {
+  content: '';
   background-color: #545454;
-  width: 224px;
+  width: 234px;
   height: 2px;
   position: absolute;
   margin-top: 16px;
-  margin-left: 226px;
+  margin-left: 56px;
 }
 
 .about-me__text {
@@ -231,6 +232,16 @@ video {
   width: 230px;
   height: 33px;
   text-align: center;
+}
+
+.education__title::after {
+  content: '';
+  background-color: #545454;
+  width: 232px;
+  height: 2px;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 56px;
 }
 
 .education__item {
@@ -262,6 +273,16 @@ video {
   height: 33px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.skills__title::after {
+  content: '';
+  background-color: #545454;
+  width: 239px;
+  height: 2px;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 74px;
 }
 
 .skills__list {
@@ -308,13 +329,14 @@ video {
   text-align: center;
 }
 
-.title__line {
+.code-examples__title::after {
+  content: '';
   background-color: #545454;
-  width: 224px;
+  width: 239px;
   height: 2px;
   position: absolute;
   margin-top: 16px;
-  margin-left: 226px;
+  margin-left: 25px;
 }
 
 .js__code {

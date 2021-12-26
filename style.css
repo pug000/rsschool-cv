@@ -53,7 +53,8 @@ video {
 
 .left-column__content {
   width: 50%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
   margin: 10px 6px 10px 14px;
@@ -61,7 +62,7 @@ video {
 }
 
 .header__content {
-  margin: 10px 17px 30px 17px;
+  margin: 10px 17px 50px 17px;
   display: flex;
 }
 
@@ -73,10 +74,11 @@ video {
 }
 
 .header__info {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-around;
-  margin-top: 15px;
+  margin-left: 65px;
 }
 
 .title__first-name {
@@ -183,7 +185,8 @@ video {
   line-height: 18px;
   list-style: none;
   padding-left: 22px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 15px;
 }
 

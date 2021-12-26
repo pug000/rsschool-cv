@@ -181,14 +181,15 @@ video {
 .language__list {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 18px;
   list-style: none;
-  padding-left: 22px;
+  padding-left: 35px;
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
+
 
 .language__item {
   padding-top: 5px;
@@ -197,6 +198,18 @@ video {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
+  background-repeat: no-repeat;
+  background-size: 110px 30px;
+  background-position-x: 65%;
+  background-position-y: 50%;
+}
+
+.language__dots-black {
+  background-image: url(/images/dots__black.svg);
+}
+
+.language__dots-white {
+  background-image: url(/images/dots__white.svg);
 }
 
 .language__img {

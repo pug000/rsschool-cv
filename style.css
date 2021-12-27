@@ -226,8 +226,10 @@ video {
   margin: 10px 13px 10px 0px;
 }
 
-.about__content {
-  margin: 20px 15px 50px 15px;
+.about-me__content {
+  margin: 20px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me__title {
@@ -259,12 +261,15 @@ video {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 29px;
   color: #000000;
+  margin-left: 5px;
 }
 
 .education__content {
-  margin: 20px 15px 50px 15px;
+  margin: 20px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .education__title {
@@ -297,13 +302,13 @@ video {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 29px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .skills__content {
-  margin: 20px 15px 50px 15px;
+  margin: 20px 15px 40px 15px;
   width: 425px;
 }
 
@@ -348,7 +353,7 @@ video {
   font-size: 17px;
   line-height: 18px;
   color: #545454;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   width: 80px;
   height: 79px;
 }
@@ -359,7 +364,7 @@ video {
 }
 
 .code-examples__content {
-  margin: 20px 15px 50px 15px;
+  margin: 20px 15px 40px 15px;
 }
 
 .code-examples__title {
@@ -417,7 +422,7 @@ video {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  height: 67px;
+  height: 63px;
 }
 
 .footer__github {

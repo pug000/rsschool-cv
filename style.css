@@ -18,7 +18,7 @@ body {
 }
 
 .animated__background {
-  position: absolute;
+  position: fixed;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -361,6 +361,53 @@ video {
 .skills__item img {
   width: 70px;
   height: 85px;
+}
+
+.projects__content {
+  margin: 20px 15px 40px 15px;
+}
+
+.projects__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 30px;
+  background: #545454;
+  border-radius: 10px;
+  border: 10px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  width: 230px;
+  height: 33px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects__title::after {
+  content: '';
+  background-color: #545454;
+  width: 239px;
+  height: 2px;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 42px;
+}
+
+.projects__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 170px;
+  margin-left: 10px;
+}
+
+.projects__wrapper:hover {
+  box-shadow: 15px 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.project__img {
+  width: 175px;
 }
 
 .code-examples__content {
